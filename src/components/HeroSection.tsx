@@ -14,7 +14,7 @@ export default function HeroSection() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/works/hero.png')" }}
+        style={{ backgroundImage: "url('./works/hero.png')" }}
       />
 
       {/* Gradient overlay */}
