@@ -85,7 +85,7 @@ const instagramWorks: Work[] = [
   {
     id: 'ig-06',                          // ユニークなID
     category: 'instagram',                // カテゴリー
-    image: '/works/i06.png',              // 画像パス
+    image: './works/i06.png',              // 画像パス
     title: '新しい作品のタイトル',
     description: '採用担当者向けの説明文',
     tags: ['Canva', 'Instagram'],

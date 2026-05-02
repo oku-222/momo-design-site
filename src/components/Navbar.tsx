@@ -5,7 +5,10 @@ const navLinks = [
   { href: '#about',    label: 'ABOUT' },
   { href: '#services', label: 'SERVICES' },
   { href: '#skills',   label: 'SKILLS' },
-  { href: '#contact',  label: 'CONTACT' },
+  { 
+    href: 'https://forms.gle/6Cusc1YtWjnZ37Qx6', // GoogleフォームのURL
+    label: 'CONTACT' 
+  },
 ]
 
 export default function Navbar() {

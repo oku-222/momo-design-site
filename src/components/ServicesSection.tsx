@@ -114,13 +114,15 @@ export default function ServicesSection() {
           ))}
         </div>
 
-        {/* CTA */}
-        <div className="text-center mt-14 fade-in">
+{/* CTA */}
+<div className="text-center mt-14 fade-in">
           <p className="text-sm mb-6" style={{ color: '#9e8f86' }}>
             ご依頼・ご相談はお気軽にお問い合わせください
           </p>
           <a
-            href="#contact"
+            href="https://forms.gle/6Cusc1YtWjnZ37Qx6"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-10 py-3 text-xs tracking-widest transition-all duration-300"
             style={{
               fontFamily: "'DM Sans', sans-serif",
